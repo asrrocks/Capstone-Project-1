@@ -15,35 +15,39 @@ File: CSS/style.css
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: white;
+}
+
 .calculator{
     width: 100%;
     height: 100vh;
 }
 
 .screen{
-    height: 40%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #000;
+    background-color: #fff;
     justify-content: space-between;
+    
 }
 .inputbuttons{
     display: flex;
-    height: 60%;
+    height: 70%;
     flex-wrap: wrap;
     flex-direction: row;
 }
 button{
-    background-color: #000;
-    font-size: 8vh;
-    color: white;
+    
+    font-size: 6vh;
     border: 0;
     width: 25%;
+    color: #fff;
 }
 button:active{
-    background-color: darkgrey;
-    color:tomato;
+    background-color: #111;
     font-weight: bold;
     transition: all 0.2s;
 }
@@ -51,11 +55,12 @@ button:active{
 input{
     border:0;
     width:100%;
-    font-size:20vh;
+    font-size:10vh;
     text-align:right;
     outline:none;
     background-color:transparent;
-    color:white;
+    color:111;
+    padding: 20px;
 }
 
 .equalto{
@@ -63,6 +68,14 @@ input{
 }
 
 #answer{
-    font-size:7vh;
-    color:white;
+    font-size:6vh;
+    color:111;
+    padding: 20px;
+}
+
+.dg{
+    background-color: #333;
+}
+.lg{
+    background-color: #888;
 }
