@@ -26,15 +26,19 @@
 <body>
     <section class="calculator">
         <div class="screen">
-            <input type="text" autofocus id="screen" value="8998" readonly>
-            <h3 id="answer">123</h3>
+            <input type="text" autofocus id="screen" readonly>
+            <h3 id="answer"></h3>
         </div>
         <div class="inputbuttons">
             <!-- Row1 -->
             <button class="keys number dg">7</button>
             <button class="keys number dg">8</button>
             <button class="keys number dg">9</button>
-            <button class="keys operator lg">c</button>
+            <div class="special">
+                <button class="keys operator lg">AC</button>
+
+                <button class="keys operator lg">C</button>
+            </div>
             <!-- Row2 -->
             <button class="keys number dg">4</button>
             <button class="keys number dg">5</button>
